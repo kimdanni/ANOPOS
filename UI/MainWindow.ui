@@ -1,0 +1,2063 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>994</width>
+    <height>612</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page_4">
+       <widget class="QLabel" name="background">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>961</width>
+          <height>591</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(34, 40, 49);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="anoposImg">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>931</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>461</width>
+          <height>31</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 211, 105);
+color: rgb(34, 40, 49);
+font: 87 18pt &quot;Arial Black&quot;;
+border-top-right-radius:10px;
+border-top-left-radius:10px;</string>
+        </property>
+        <property name="text">
+         <string>ANOPOS</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="IdEdit">
+        <property name="geometry">
+         <rect>
+          <x>640</x>
+          <y>220</y>
+          <width>271</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(34, 40, 49);
+color: rgb(255, 255, 255);
+font: 87 11pt &quot;Arial Black&quot;;</string>
+        </property>
+        <property name="text">
+         <string>ID</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="PassWordEdit">
+        <property name="geometry">
+         <rect>
+          <x>640</x>
+          <y>280</y>
+          <width>271</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(34, 40, 49);
+color: rgb(255, 255, 255);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+        </property>
+        <property name="text">
+         <string>PassWord</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="IDLabel">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>220</y>
+          <width>61</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 87 14pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>ID</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_32">
+        <property name="geometry">
+         <rect>
+          <x>560</x>
+          <y>300</y>
+          <width>56</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="PassWordLabel">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>280</y>
+          <width>141</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 87 14pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>PassWord</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="StatusLabel">
+        <property name="geometry">
+         <rect>
+          <x>710</x>
+          <y>140</y>
+          <width>201</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 87 14pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>PLZ LOGIN</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="LogInBtn">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>370</y>
+          <width>181</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	border-radius : 10px;
+	font: 87 13pt &quot;Arial Black&quot;;
+	background-color: rgb(255, 211, 105);
+}
+QPushButton:pressed{
+	border-radius : 10px;
+	font: 87 13pt &quot;Arial Black&quot;;
+	
+	background-color: rgb(238, 238, 238);
+}</string>
+        </property>
+        <property name="text">
+         <string>LOG IN</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="SignInBtn">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>420</y>
+          <width>181</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	border-radius : 10px;
+	font: 87 13pt &quot;Arial Black&quot;;
+	background-color: rgb(255, 211, 105);
+}
+QPushButton:pressed{
+	border-radius : 10px;
+	font: 87 13pt &quot;Arial Black&quot;;
+	
+	background-color: rgb(238, 238, 238);
+}</string>
+        </property>
+        <property name="text">
+         <string>SIGN IN</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="GoToMainBtn">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>470</y>
+          <width>181</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	border-radius : 10px;
+	color: rgb(255, 255, 255);
+	font: 87 13pt &quot;Arial Black&quot;;
+	background-color : rgb(117, 135, 158)
+}
+
+QPushButton:pressed{
+	border-radius : 10px;
+	color: rgb(255, 255, 255);
+	font: 87 13pt &quot;Arial Black&quot;;
+	
+	background-color: rgb(57, 62, 70);
+}</string>
+        </property>
+        <property name="text">
+         <string>GO TO MAIN</string>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="stackedWidgetPage1">
+       <widget class="QLabel" name="label_15">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>961</width>
+          <height>591</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(34, 40, 49);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>30</y>
+          <width>931</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>461</width>
+          <height>31</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 211, 105);
+color: rgb(34, 40, 49);
+font: 87 18pt &quot;Arial Black&quot;;
+border-top-right-radius:10px;
+border-top-left-radius:10px;</string>
+        </property>
+        <property name="text">
+         <string>ANOPOS</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>80</y>
+          <width>731</width>
+          <height>478</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <property name="horizontalSpacing">
+          <number>30</number>
+         </property>
+         <item row="0" column="1">
+          <widget class="QPushButton" name="menageSales">
+           <property name="minimumSize">
+            <size>
+             <width>141</width>
+             <height>161</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(238, 238, 238);
+border-radius:20px;
+font: 75 13pt &quot;맑은 고딕&quot;;
+text-align:bottom;
+</string>
+           </property>
+           <property name="text">
+            <string>영업정보관리</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QPushButton" name="pushButton">
+           <property name="minimumSize">
+            <size>
+             <width>141</width>
+             <height>161</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(238, 238, 238);
+border-radius:20px;
+font: 75 13pt &quot;맑은 고딕&quot;;
+text-align:bottom;
+</string>
+           </property>
+           <property name="text">
+            <string>마감정산</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QPushButton" name="pushButton_5">
+           <property name="minimumSize">
+            <size>
+             <width>141</width>
+             <height>161</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+background-color: rgb(238, 238, 238);
+border-radius:20px;
+font: 75 13pt &quot;맑은 고딕&quot;;
+text-align:bottom;
+</string>
+           </property>
+           <property name="text">
+            <string>판매내역</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QPushButton" name="registSales">
+           <property name="minimumSize">
+            <size>
+             <width>141</width>
+             <height>161</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(126, 128, 143);
+border-radius:20px;
+font: 75 13pt &quot;맑은 고딕&quot;;
+text-align:bottom;
+</string>
+           </property>
+           <property name="text">
+            <string>영업등록</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QPushButton" name="salesSt">
+           <property name="minimumSize">
+            <size>
+             <width>141</width>
+             <height>161</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(238, 238, 238);
+border-radius:20px;
+font: 75 13pt &quot;맑은 고딕&quot;;
+text-align:bottom;
+</string>
+           </property>
+           <property name="text">
+            <string>매출요약</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QPushButton" name="logoutBtn">
+           <property name="minimumSize">
+            <size>
+             <width>141</width>
+             <height>161</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+background-color: rgb(238, 238, 238);
+border-radius:20px;
+font: 75 13pt &quot;맑은 고딕&quot;;
+text-align:bottom;
+</string>
+           </property>
+           <property name="text">
+            <string>로그아웃</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page">
+       <widget class="QLabel" name="label_19">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>30</y>
+          <width>971</width>
+          <height>551</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(57, 62, 70);
+border-radius:10px;
+background-color: rgb(34, 40, 49);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_22">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>971</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 211, 105);
+font: 87 19pt &quot;Arial Black&quot;;
+color: rgb(49, 49, 49);
+border-top-left-radius : 20px;
+border-top-right-radius : 20px;</string>
+        </property>
+        <property name="text">
+         <string>  ANOPOS</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>60</y>
+          <width>641</width>
+          <height>501</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="2" column="2">
+          <widget class="QPushButton" name="TakeOut">
+           <property name="minimumSize">
+            <size>
+             <width>176</width>
+             <height>131</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	background-color: rgba(255, 255, 255, 70);
+	border-radius:20px;
+	color: rgb(255, 204, 49);
+	font: 87 20pt &quot;Arial Black&quot;;
+}</string>
+           </property>
+           <property name="text">
+            <string>TAKE OUT</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QPushButton" name="table7">
+           <property name="minimumSize">
+            <size>
+             <width>176</width>
+             <height>131</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	background-color: rgba(255, 255, 255, 70);
+	border-radius:20px;
+	color: rgb(255, 204, 49);
+	font: 87 20pt &quot;Arial Black&quot;;
+}</string>
+           </property>
+           <property name="text">
+            <string>7</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QPushButton" name="table2">
+           <property name="minimumSize">
+            <size>
+             <width>175</width>
+             <height>131</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	background-color: rgba(255, 255, 255, 70);
+	border-radius:20px;
+	color: rgb(255, 204, 49);
+	font: 87 20pt &quot;Arial Black&quot;;
+}</string>
+           </property>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QPushButton" name="table8">
+           <property name="minimumSize">
+            <size>
+             <width>175</width>
+             <height>131</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	background-color: rgba(255, 255, 255, 70);
+	border-radius:20px;
+	color: rgb(255, 204, 49);
+	font: 87 20pt &quot;Arial Black&quot;;
+}</string>
+           </property>
+           <property name="text">
+            <string>8</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QPushButton" name="table5">
+           <property name="minimumSize">
+            <size>
+             <width>175</width>
+             <height>131</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	background-color: rgba(255, 255, 255, 70);
+	border-radius:20px;
+	color: rgb(255, 204, 49);
+	font: 87 20pt &quot;Arial Black&quot;;
+}</string>
+           </property>
+           <property name="text">
+            <string>5</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QPushButton" name="table1">
+           <property name="minimumSize">
+            <size>
+             <width>176</width>
+             <height>131</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	background-color: rgba(255, 255, 255, 70);
+	border-radius:20px;
+	color: rgb(255, 204, 49);
+	font: 87 20pt &quot;Arial Black&quot;;
+}</string>
+           </property>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QPushButton" name="table3">
+           <property name="minimumSize">
+            <size>
+             <width>176</width>
+             <height>131</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	background-color: rgba(255, 255, 255, 70);
+	border-radius:20px;
+	color: rgb(255, 204, 49);
+	font: 87 20pt &quot;Arial Black&quot;;
+}</string>
+           </property>
+           <property name="text">
+            <string>3</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QPushButton" name="table4">
+           <property name="minimumSize">
+            <size>
+             <width>176</width>
+             <height>131</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	background-color: rgba(255, 255, 255, 70);
+	border-radius:20px;
+	color: rgb(255, 204, 49);
+	font: 87 20pt &quot;Arial Black&quot;;
+}</string>
+           </property>
+           <property name="text">
+            <string>4</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QPushButton" name="table6">
+           <property name="minimumSize">
+            <size>
+             <width>176</width>
+             <height>131</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	background-color: rgba(255, 255, 255, 70);
+	border-radius:20px;
+	color: rgb(255, 204, 49);
+	font: 87 20pt &quot;Arial Black&quot;;
+}</string>
+           </property>
+           <property name="text">
+            <string>6</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>440</y>
+          <width>53</width>
+          <height>98</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QPushButton" name="tbGoToHome">
+           <property name="minimumSize">
+            <size>
+             <width>51</width>
+             <height>41</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>51</width>
+             <height>41</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 211, 105);
+border-radius : 10px;</string>
+           </property>
+           <property name="text">
+            <string>Home</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_51">
+           <property name="minimumSize">
+            <size>
+             <width>51</width>
+             <height>41</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>51</width>
+             <height>41</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border-radius : 10px;
+background-color: rgb(255, 211, 105);</string>
+           </property>
+           <property name="text">
+            <string>Save</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <widget class="QLabel" name="label_20">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>961</width>
+          <height>551</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>961</width>
+          <height>551</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(39, 43, 67);
+font: 75 15pt &quot;맑은 고딕&quot;;
+color: rgb(255, 211, 105);
+border-bottom-right-radius : 20px;
+border-bottom-left-radius : 20px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_24">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>961</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 211, 105);
+font: 87 19pt &quot;Arial Black&quot;;
+color: rgb(49, 49, 49);
+border-top-left-radius : 20px;
+border-top-right-radius : 20px;</string>
+        </property>
+        <property name="text">
+         <string>  ANOPOS</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="home_btn">
+        <property name="geometry">
+         <rect>
+          <x>890</x>
+          <y>520</y>
+          <width>51</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>51</width>
+          <height>41</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>51</width>
+          <height>41</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 211, 105);
+font: 87 12pt &quot;Arial Black&quot;;
+border-radius : 10px;</string>
+        </property>
+        <property name="text">
+         <string>Home</string>
+        </property>
+       </widget>
+       <widget class="QStackedWidget" name="stackedWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>110</y>
+          <width>611</width>
+          <height>431</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(39, 43, 67);
+font: 75 15pt &quot;맑은 고딕&quot;;
+color: rgb(255, 211, 105);
+border-top-left-radius : 20px;
+border-top-right-radius : 20px;</string>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="page_5">
+         <widget class="QLabel" name="label_35">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>30</y>
+            <width>611</width>
+            <height>401</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>251</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(238, 238, 238);
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+font: 75 13pt &quot;맑은 고딕&quot;;
+text-align:bottom;
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_21">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>611</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 87 19pt &quot;Arial Black&quot;;
+background-color: rgb(88, 113, 137);</string>
+          </property>
+          <property name="text">
+           <string>  STASTATIC</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="main_sell">
+          <property name="geometry">
+           <rect>
+            <x>31</x>
+            <y>150</y>
+            <width>171</width>
+            <height>191</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 87 19pt &quot;Arial Black&quot;;
+border-radius:20px;
+background-color: rgb(88, 113, 137);</string>
+          </property>
+          <property name="text">
+           <string>STASTATIC</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QLabel" name="main_count">
+          <property name="geometry">
+           <rect>
+            <x>214</x>
+            <y>150</y>
+            <width>171</width>
+            <height>191</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 87 19pt &quot;Arial Black&quot;;
+border-radius:20px;
+background-color: rgb(88, 113, 137);</string>
+          </property>
+          <property name="text">
+           <string>STASTATIC</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QLabel" name="main_seller">
+          <property name="geometry">
+           <rect>
+            <x>397</x>
+            <y>150</y>
+            <width>171</width>
+            <height>191</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+border-radius:20px;
+font: 87 19pt &quot;Arial Black&quot;;
+background-color: rgb(88, 113, 137);</string>
+          </property>
+          <property name="text">
+           <string>STASTATIC</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_6">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="geometry">
+           <rect>
+            <x>31</x>
+            <y>111</y>
+            <width>173</width>
+            <height>29</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(213, 218, 218);
+border-radius : 10px;
+font: 87 19pt &quot;Arial Black&quot;;</string>
+          </property>
+          <property name="text">
+           <string> 누적 판매량</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_7">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="geometry">
+           <rect>
+            <x>214</x>
+            <y>111</y>
+            <width>173</width>
+            <height>29</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(213, 218, 218);
+border-radius : 10px;
+font: 87 19pt &quot;Arial Black&quot;;</string>
+          </property>
+          <property name="text">
+           <string> 누적 판매 수량</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_8">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="geometry">
+           <rect>
+            <x>397</x>
+            <y>111</y>
+            <width>173</width>
+            <height>29</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(213, 218, 218);
+border-radius : 10px;
+font: 87 19pt &quot;Arial Black&quot;;</string>
+          </property>
+          <property name="text">
+           <string> 최다 판매자</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_7">
+         <widget class="QLabel" name="label_40">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>30</y>
+            <width>611</width>
+            <height>401</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>251</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(238, 238, 238);
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+font: 75 13pt &quot;맑은 고딕&quot;;
+text-align:bottom;
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_43">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>611</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 87 19pt &quot;Arial Black&quot;;
+background-color: rgb(88, 113, 137);</string>
+          </property>
+          <property name="text">
+           <string>  MONTH STASTATIC</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_8">
+         <widget class="QLabel" name="label_44">
+          <property name="geometry">
+           <rect>
+            <x>-40</x>
+            <y>30</y>
+            <width>721</width>
+            <height>401</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>251</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(238, 238, 238);
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+font: 75 13pt &quot;맑은 고딕&quot;;
+text-align:bottom;
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QCalendarWidget" name="product_cal">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>50</y>
+            <width>151</width>
+            <height>311</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_46">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>681</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 87 19pt &quot;Arial Black&quot;;
+background-color: rgb(88, 113, 137);</string>
+          </property>
+          <property name="text">
+           <string>  PRODUCT STASTATIC</string>
+          </property>
+         </widget>
+         <widget class="QWidget" name="gridLayoutWidget_4">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>80</y>
+            <width>431</width>
+            <height>331</height>
+           </rect>
+          </property>
+          <layout class="QGridLayout" name="product_img"/>
+         </widget>
+         <widget class="QCheckBox" name="product_year_check">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="geometry">
+           <rect>
+            <x>530</x>
+            <y>370</y>
+            <width>71</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-radius:10px;</string>
+          </property>
+          <property name="text">
+           <string>YEAR</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QLabel" name="product_info_label">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>50</y>
+            <width>431</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>selected info (판매 수량)</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="coin_product">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>370</y>
+            <width>71</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-radius:10px;</string>
+          </property>
+          <property name="text">
+           <string>매출</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_9">
+         <widget class="QLabel" name="label_47">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>30</y>
+            <width>611</width>
+            <height>401</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>251</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(238, 238, 238);
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+font: 75 13pt &quot;맑은 고딕&quot;;
+text-align:bottom;
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QCalendarWidget" name="seller_cal">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>80</y>
+            <width>241</width>
+            <height>281</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_49">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>611</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 87 19pt &quot;Arial Black&quot;;
+background-color: rgb(88, 113, 137);</string>
+          </property>
+          <property name="text">
+           <string>  SELLER STASTATIC</string>
+          </property>
+         </widget>
+         <widget class="QWidget" name="gridLayoutWidget_3">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>80</y>
+            <width>321</width>
+            <height>281</height>
+           </rect>
+          </property>
+          <layout class="QGridLayout" name="user_img"/>
+         </widget>
+         <widget class="QCheckBox" name="seller_year_check">
+          <property name="geometry">
+           <rect>
+            <x>530</x>
+            <y>370</y>
+            <width>71</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-radius : 10px;</string>
+          </property>
+          <property name="text">
+           <string>year</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="seller_info_label">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>50</y>
+            <width>321</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>selected info (판매 수량)</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="coin_seller">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>370</y>
+            <width>71</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-radius:10px;</string>
+          </property>
+          <property name="text">
+           <string>매출</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_6">
+         <widget class="QLabel" name="label_36">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>30</y>
+            <width>611</width>
+            <height>401</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>251</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(238, 238, 238);
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+font: 75 13pt &quot;맑은 고딕&quot;;
+text-align:bottom;
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_31">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>611</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 87 19pt &quot;Arial Black&quot;;
+background-color: rgb(88, 113, 137);</string>
+          </property>
+          <property name="text">
+           <string>  TIME STASTATIC</string>
+          </property>
+         </widget>
+         <widget class="QCalendarWidget" name="time_cal">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>80</y>
+            <width>241</width>
+            <height>281</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QWidget" name="gridLayoutWidget_2">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>80</y>
+            <width>321</width>
+            <height>281</height>
+           </rect>
+          </property>
+          <layout class="QGridLayout" name="time_img"/>
+         </widget>
+         <widget class="QCheckBox" name="time_year_check">
+          <property name="geometry">
+           <rect>
+            <x>510</x>
+            <y>370</y>
+            <width>81</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-radius : 10px;</string>
+          </property>
+          <property name="text">
+           <string>year</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="time_info_label">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>50</y>
+            <width>321</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>selected info (판매량)</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="coin_time">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="geometry">
+           <rect>
+            <x>430</x>
+            <y>370</y>
+            <width>71</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-radius:10px;</string>
+          </property>
+          <property name="text">
+           <string>매출</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>750</x>
+          <y>130</y>
+          <width>141</width>
+          <height>370</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <property name="spacing">
+          <number>46</number>
+         </property>
+         <property name="leftMargin">
+          <number>5</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>20</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="main_btn">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border-radius : 0px;
+font: 87 14pt &quot;Arial Black&quot;;
+background-color: rgba(237, 255, 244, 0);
+border-bottom : 1px solid white;
+color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>MAIN</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="product_st">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border-radius : 0px;
+font: 87 14pt &quot;Arial Black&quot;;
+background-color: rgba(237, 255, 244, 0);
+border-bottom : 1px solid white;
+color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>제품별  통계</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="user_st">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border-radius : 0px;
+font: 87 14pt &quot;Arial Black&quot;;
+background-color: rgba(237, 255, 244, 0);
+border-bottom : 1px solid white;
+color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>사용자  통계</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="time_st">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="MinimumExpanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border-radius : 0px;
+font: 87 14pt &quot;Arial Black&quot;;
+background-color: rgba(237, 255, 244, 0);
+border-bottom : 1px solid white;
+color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>시간별  통계</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_3">
+       <widget class="QLabel" name="label_25">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>961</width>
+          <height>551</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>961</width>
+          <height>551</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(34, 40, 49);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_26">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>741</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(39, 43, 67);
+font: 75 15pt &quot;맑은 고딕&quot;;
+color: rgb(255, 211, 105);
+border-top-left-radius : 20px;
+border-top-right-radius : 20px;</string>
+        </property>
+        <property name="text">
+         <string>  재고 관리</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_27">
+        <property name="geometry">
+         <rect>
+          <x>740</x>
+          <y>0</y>
+          <width>221</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 211, 105);
+font: 75 15pt &quot;맑은 고딕&quot;;
+color : rgb(39, 43, 67);
+border-top-left-radius : 20px;
+border-top-right-radius : 20px;
+text-align:center;</string>
+        </property>
+        <property name="text">
+         <string>00:00</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="BusinessTable">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>130</y>
+          <width>511</width>
+          <height>341</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <column>
+         <property name="text">
+          <string>코드</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>카테고리</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>품명 </string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>판매가</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>재고</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QPushButton" name="newMenuBtn">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>420</y>
+          <width>161</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	border-radius : 10px;
+	background-color: rgb(255, 211, 105);
+
+}
+
+QPushButton:pressed{
+	border-radius : 10px;
+	
+	background-color: rgb(255, 190, 120);
+}</string>
+        </property>
+        <property name="text">
+         <string>등록</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_28">
+        <property name="geometry">
+         <rect>
+          <x>570</x>
+          <y>130</y>
+          <width>281</width>
+          <height>341</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+background-color: rgba(22, 60, 121, 100);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="stHomeBtn">
+        <property name="geometry">
+         <rect>
+          <x>870</x>
+          <y>430</y>
+          <width>51</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>51</width>
+          <height>41</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>51</width>
+          <height>41</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	border-radius : 10px;
+	background-color: rgb(255, 211, 105);
+
+}
+
+QPushButton:pressed{
+	border-radius : 10px;
+	
+	background-color: rgb(255, 190, 120);
+}</string>
+        </property>
+        <property name="text">
+         <string>Home</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>580</x>
+          <y>170</y>
+          <width>261</width>
+          <height>241</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <property name="spacing">
+          <number>12</number>
+         </property>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_7">
+           <item>
+            <widget class="QLabel" name="label_41">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>맑은 고딕</family>
+               <pointsize>13</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 211, 105);
+border-radius:10px;</string>
+             </property>
+             <property name="text">
+              <string>상품코드</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="newCode">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>10</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
+            <widget class="QLabel" name="label_34">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>맑은 고딕</family>
+               <pointsize>13</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 211, 105);
+border-radius:10px;</string>
+             </property>
+             <property name="text">
+              <string>카테고리</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="newCategory">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>테이블</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_6">
+           <item>
+            <widget class="QLabel" name="label_37">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>맑은 고딕</family>
+               <pointsize>13</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 211, 105);
+border-radius:10px;</string>
+             </property>
+             <property name="text">
+              <string>판매가</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="newPrice">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>1000</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <widget class="QLabel" name="label_38">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>맑은 고딕</family>
+               <pointsize>13</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 211, 105);
+border-radius:10px;</string>
+             </property>
+             <property name="text">
+              <string>품명</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="newName">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>용사 중식</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QLabel" name="label_39">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>맑은 고딕</family>
+               <pointsize>13</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 211, 105);
+border-radius:10px;</string>
+             </property>
+             <property name="text">
+              <string>재고</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="newStuck">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>10</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QLabel" name="label_14">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>140</y>
+          <width>191</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>맑은 고딕</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(238, 238, 238);
+border-radius:7px;</string>
+        </property>
+        <property name="text">
+         <string>신규 메뉴 등록</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <zorder>label_25</zorder>
+       <zorder>label_28</zorder>
+       <zorder>label_26</zorder>
+       <zorder>label_27</zorder>
+       <zorder>BusinessTable</zorder>
+       <zorder>newMenuBtn</zorder>
+       <zorder>stHomeBtn</zorder>
+       <zorder>verticalLayoutWidget</zorder>
+       <zorder>label_14</zorder>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

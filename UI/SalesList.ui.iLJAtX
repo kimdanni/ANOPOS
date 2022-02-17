@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>709</width>
+    <height>601</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>691</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="5" column="0">
+     <widget class="QPushButton" name="pushButton_14">
+      <property name="minimumSize">
+       <size>
+        <width>91</width>
+        <height>81</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>카드 결제</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QPushButton" name="pushButton_12">
+      <property name="minimumSize">
+       <size>
+        <width>91</width>
+        <height>81</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>B타입 영수증</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2" rowspan="2">
+     <widget class="QPushButton" name="pushButton_13">
+      <property name="minimumSize">
+       <size>
+        <width>91</width>
+        <height>171</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>결제</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QPushButton" name="pushButton_11">
+      <property name="minimumSize">
+       <size>
+        <width>91</width>
+        <height>81</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>A타입 영수증</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>총결제금액</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1" colspan="2">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>9960</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="minimumSize">
+       <size>
+        <width>91</width>
+        <height>81</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>현금 결제</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" rowspan="2" colspan="2">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>50040</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>거스름돈</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4" rowspan="7">
+     <layout class="QGridLayout" name="gridLayout"/>
+    </item>
+    <item row="2" column="0" rowspan="2">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>받은 금액</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1" colspan="2">
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="text">
+       <string>60000</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="3">
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="dragDropOverwriteMode">
+       <bool>true</bool>
+      </property>
+      <row>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>상품명</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>수량</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>금액</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>맹독 젤리</string>
+       </property>
+      </item>
+      <item row="0" column="1">
+       <property name="text">
+        <string>2</string>
+       </property>
+      </item>
+      <item row="0" column="2">
+       <property name="text">
+        <string>40</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>기술의 역사</string>
+       </property>
+      </item>
+      <item row="1" column="1">
+       <property name="text">
+        <string>1</string>
+       </property>
+      </item>
+      <item row="1" column="2">
+       <property name="text">
+        <string>50000</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QListWidget" name="listWidget">
+      <item>
+       <property name="text">
+        <string>맹독 젤리</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>기술의 역사</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

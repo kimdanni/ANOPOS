@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>984</width>
+    <height>614</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="stackedWidgetPage1">
+       <widget class="QLabel" name="label_15">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>961</width>
+          <height>591</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(34, 40, 49);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>30</y>
+          <width>931</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>461</width>
+          <height>31</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 211, 105);
+color: rgb(34, 40, 49);
+font: 87 18pt &quot;Arial Black&quot;;
+border-top-right-radius:10px;
+border-top-left-radius:10px;</string>
+        </property>
+        <property name="text">
+         <string>ANOPOS</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>80</y>
+          <width>921</width>
+          <height>442</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="0">
+          <widget class="QPushButton" name="pushButton_7">
+           <property name="minimumSize">
+            <size>
+             <width>141</width>
+             <height>161</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/Regist/영업등록.png);
+background-color: rgb(126, 128, 143);
+border-radius:20px;
+font: 75 13pt &quot;맑은 고딕&quot;;
+text-align:bottom;
+</string>
+           </property>
+           <property name="text">
+            <string>영업등록</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QPushButton" name="pushButton_8">
+           <property name="minimumSize">
+            <size>
+             <width>141</width>
+             <height>161</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/INFO/영업정보관리.png);
+background-color: rgb(238, 238, 238);
+border-radius:20px;
+font: 75 13pt &quot;맑은 고딕&quot;;
+text-align:bottom;
+</string>
+           </property>
+           <property name="text">
+            <string>영업정보관리</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QPushButton" name="pushButton">
+           <property name="minimumSize">
+            <size>
+             <width>141</width>
+             <height>161</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/END/마감정산.png);
+background-color: rgb(238, 238, 238);
+border-radius:20px;
+font: 75 13pt &quot;맑은 고딕&quot;;
+text-align:bottom;
+</string>
+           </property>
+           <property name="text">
+            <string>마감정산</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QPushButton" name="pushButton_6">
+           <property name="minimumSize">
+            <size>
+             <width>141</width>
+             <height>161</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/Summer/매출요약.png);
+background-color: rgb(238, 238, 238);
+border-radius:20px;
+font: 75 13pt &quot;맑은 고딕&quot;;
+text-align:bottom;
+</string>
+           </property>
+           <property name="text">
+            <string>매출요약</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QPushButton" name="pushButton_5">
+           <property name="minimumSize">
+            <size>
+             <width>141</width>
+             <height>161</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/SoldList/판매내역.png);
+background-color: rgb(238, 238, 238);
+border-radius:20px;
+font: 75 13pt &quot;맑은 고딕&quot;;
+text-align:bottom;
+</string>
+           </property>
+           <property name="text">
+            <string>판매내역</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="minimumSize">
+            <size>
+             <width>141</width>
+             <height>161</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/saveICON/종료.png);
+background-color: rgb(238, 238, 238);
+border-radius:20px;
+font: 75 13pt &quot;맑은 고딕&quot;;
+text-align:bottom;
+</string>
+           </property>
+           <property name="text">
+            <string>종료</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="3">
+          <layout class="QFormLayout" name="formLayout">
+           <property name="horizontalSpacing">
+            <number>100</number>
+           </property>
+           <property name="verticalSpacing">
+            <number>30</number>
+           </property>
+           <property name="topMargin">
+            <number>20</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <item row="0" column="0" colspan="2">
+            <widget class="QLabel" name="label_3">
+             <property name="styleSheet">
+              <string notr="true">color: rgb(238, 238, 238);
+font: 75 10pt &quot;맑은 고딕&quot;;</string>
+             </property>
+             <property name="text">
+              <string>            매출요약</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_4">
+             <property name="styleSheet">
+              <string notr="true">color: rgb(238, 238, 238);
+font: 75 10pt &quot;맑은 고딕&quot;;</string>
+             </property>
+             <property name="text">
+              <string>총매출액</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLabel" name="label_5">
+             <property name="styleSheet">
+              <string notr="true">color: rgb(238, 238, 238);
+font: 75 10pt &quot;맑은 고딕&quot;;</string>
+             </property>
+             <property name="text">
+              <string>0원</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_6">
+             <property name="styleSheet">
+              <string notr="true">color: rgb(238, 238, 238);
+font: 75 10pt &quot;맑은 고딕&quot;;</string>
+             </property>
+             <property name="text">
+              <string>할인금액</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLabel" name="label_7">
+             <property name="styleSheet">
+              <string notr="true">color: rgb(238, 238, 238);
+font: 75 10pt &quot;맑은 고딕&quot;;</string>
+             </property>
+             <property name="text">
+              <string>0원</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="label_8">
+             <property name="styleSheet">
+              <string notr="true">color: rgb(238, 238, 238);
+font: 75 10pt &quot;맑은 고딕&quot;;</string>
+             </property>
+             <property name="text">
+              <string>순매출액</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QLabel" name="label_9">
+             <property name="styleSheet">
+              <string notr="true">color: rgb(238, 238, 238);
+font: 75 10pt &quot;맑은 고딕&quot;;</string>
+             </property>
+             <property name="text">
+              <string>0원</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="label_10">
+             <property name="styleSheet">
+              <string notr="true">color: rgb(238, 238, 238);
+font: 75 10pt &quot;맑은 고딕&quot;;</string>
+             </property>
+             <property name="text">
+              <string>현금매출액</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QLabel" name="label_11">
+             <property name="styleSheet">
+              <string notr="true">color: rgb(238, 238, 238);
+font: 75 10pt &quot;맑은 고딕&quot;;</string>
+             </property>
+             <property name="text">
+              <string>0원</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="label_13">
+             <property name="styleSheet">
+              <string notr="true">color: rgb(238, 238, 238);
+font: 75 10pt &quot;맑은 고딕&quot;;</string>
+             </property>
+             <property name="text">
+              <string>카드매출액</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QLabel" name="label_12">
+             <property name="styleSheet">
+              <string notr="true">color: rgb(238, 238, 238);
+font: 75 10pt &quot;맑은 고딕&quot;;</string>
+             </property>
+             <property name="text">
+              <string>0원</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page">
+       <widget class="QLabel" name="label_19">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>971</width>
+          <height>551</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/background/mainwindowwww.PNG);
+background-image: url(:/background/mainwindowwww.PNG);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_21">
+        <property name="geometry">
+         <rect>
+          <x>750</x>
+          <y>0</y>
+          <width>221</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(40, 57, 79);
+font: 75 15pt &quot;맑은 고딕&quot;;
+color : rgb(255, 211, 105);
+border-top-left-radius : 20px;
+border-top-right-radius : 20px;
+text-align:center;</string>
+        </property>
+        <property name="text">
+         <string>00:00</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_22">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>751</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 211, 105);
+font: 87 19pt &quot;Arial Black&quot;;
+color: rgb(49, 49, 49);
+border-top-left-radius : 20px;
+border-top-right-radius : 20px;</string>
+        </property>
+        <property name="text">
+         <string>  ANOPOS</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>60</y>
+          <width>641</width>
+          <height>501</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="2" column="2">
+          <widget class="QPushButton" name="pushButton_41">
+           <property name="minimumSize">
+            <size>
+             <width>176</width>
+             <height>131</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	background-color: rgba(255, 255, 255, 70);
+	border-radius:20px;
+	color: rgb(255, 204, 49);
+	font: 87 20pt &quot;Arial Black&quot;;
+}</string>
+           </property>
+           <property name="text">
+            <string>TAKE OUT</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QPushButton" name="pushButton_48">
+           <property name="minimumSize">
+            <size>
+             <width>176</width>
+             <height>131</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	background-color: rgba(255, 255, 255, 70);
+	border-radius:20px;
+	color: rgb(255, 204, 49);
+	font: 87 20pt &quot;Arial Black&quot;;
+}</string>
+           </property>
+           <property name="text">
+            <string>7</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QPushButton" name="pushButton_47">
+           <property name="minimumSize">
+            <size>
+             <width>175</width>
+             <height>131</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	background-color: rgba(255, 255, 255, 70);
+	border-radius:20px;
+	color: rgb(255, 204, 49);
+	font: 87 20pt &quot;Arial Black&quot;;
+}</string>
+           </property>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QPushButton" name="pushButton_49">
+           <property name="minimumSize">
+            <size>
+             <width>175</width>
+             <height>131</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	background-color: rgba(255, 255, 255, 70);
+	border-radius:20px;
+	color: rgb(255, 204, 49);
+	font: 87 20pt &quot;Arial Black&quot;;
+}</string>
+           </property>
+           <property name="text">
+            <string>8</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QPushButton" name="pushButton_45">
+           <property name="minimumSize">
+            <size>
+             <width>175</width>
+             <height>131</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	background-color: rgba(255, 255, 255, 70);
+	border-radius:20px;
+	color: rgb(255, 204, 49);
+	font: 87 20pt &quot;Arial Black&quot;;
+}</string>
+           </property>
+           <property name="text">
+            <string>5</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QPushButton" name="pushButton_44">
+           <property name="minimumSize">
+            <size>
+             <width>176</width>
+             <height>131</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	background-color: rgba(255, 255, 255, 70);
+	border-radius:20px;
+	color: rgb(255, 204, 49);
+	font: 87 20pt &quot;Arial Black&quot;;
+}</string>
+           </property>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QPushButton" name="pushButton_46">
+           <property name="minimumSize">
+            <size>
+             <width>176</width>
+             <height>131</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	background-color: rgba(255, 255, 255, 70);
+	border-radius:20px;
+	color: rgb(255, 204, 49);
+	font: 87 20pt &quot;Arial Black&quot;;
+}</string>
+           </property>
+           <property name="text">
+            <string>3</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QPushButton" name="pushButton_42">
+           <property name="minimumSize">
+            <size>
+             <width>176</width>
+             <height>131</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	background-color: rgba(255, 255, 255, 70);
+	border-radius:20px;
+	color: rgb(255, 204, 49);
+	font: 87 20pt &quot;Arial Black&quot;;
+}</string>
+           </property>
+           <property name="text">
+            <string>4</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QPushButton" name="pushButton_43">
+           <property name="minimumSize">
+            <size>
+             <width>176</width>
+             <height>131</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	background-color: rgba(255, 255, 255, 70);
+	border-radius:20px;
+	color: rgb(255, 204, 49);
+	font: 87 20pt &quot;Arial Black&quot;;
+}</string>
+           </property>
+           <property name="text">
+            <string>6</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>470</y>
+          <width>53</width>
+          <height>90</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QPushButton" name="pushButton_50">
+           <property name="minimumSize">
+            <size>
+             <width>51</width>
+             <height>41</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>51</width>
+             <height>41</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 211, 105);
+border-radius : 10px;
+image: url(:/background/free-icon-home-3917033.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_51">
+           <property name="minimumSize">
+            <size>
+             <width>51</width>
+             <height>41</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>51</width>
+             <height>41</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/background/free-icon-gem-5529125.png);
+border-radius : 10px;
+background-color: rgb(255, 211, 105);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <widget class="QLabel" name="label_20">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>961</width>
+          <height>551</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>961</width>
+          <height>551</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-image: url(:/background/매출관리.PNG);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_23">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>741</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(39, 43, 67);
+font: 75 15pt &quot;맑은 고딕&quot;;
+color: rgb(255, 211, 105);
+border-top-left-radius : 20px;
+border-top-right-radius : 20px;</string>
+        </property>
+        <property name="text">
+         <string>  매출 관리</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_24">
+        <property name="geometry">
+         <rect>
+          <x>740</x>
+          <y>0</y>
+          <width>221</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 211, 105);
+font: 75 15pt &quot;맑은 고딕&quot;;
+color : rgb(39, 43, 67);
+border-top-left-radius : 20px;
+border-top-right-radius : 20px;
+text-align:center;</string>
+        </property>
+        <property name="text">
+         <string>00:00</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>160</y>
+          <width>443</width>
+          <height>321</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_35">
+           <property name="minimumSize">
+            <size>
+             <width>251</width>
+             <height>41</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 211, 105);
+border-radius:20px;
+font: 87 14pt &quot;Arial Black&quot;;</string>
+           </property>
+           <property name="text">
+            <string>08 월 07일 기간별 매출액</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_34">
+           <property name="minimumSize">
+            <size>
+             <width>441</width>
+             <height>271</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/background/wd.png);
+border-radius:10px;
+background-color: rgb(255, 211, 105,100);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_3">
+       <widget class="QLabel" name="label_25">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>961</width>
+          <height>551</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>961</width>
+          <height>551</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-image: url(:/background/재고관리.PNG);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_26">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>741</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(39, 43, 67);
+font: 75 15pt &quot;맑은 고딕&quot;;
+color: rgb(255, 211, 105);
+border-top-left-radius : 20px;
+border-top-right-radius : 20px;</string>
+        </property>
+        <property name="text">
+         <string>  재고 관리</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_27">
+        <property name="geometry">
+         <rect>
+          <x>740</x>
+          <y>0</y>
+          <width>221</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 211, 105);
+font: 75 15pt &quot;맑은 고딕&quot;;
+color : rgb(39, 43, 67);
+border-top-left-radius : 20px;
+border-top-right-radius : 20px;
+text-align:center;</string>
+        </property>
+        <property name="text">
+         <string>00:00</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>140</y>
+          <width>441</width>
+          <height>341</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(255, 255, 255, 146);</string>
+        </property>
+        <row>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>5</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>6</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>7</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>8</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>9</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>11</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>카테고리</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>판매가</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>품명</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>재고</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string>골렘</string>
+         </property>
+        </item>
+        <item row="0" column="1">
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item row="0" column="2">
+         <property name="text">
+          <string>덩굴</string>
+         </property>
+        </item>
+        <item row="0" column="3">
+         <property name="text">
+          <string>3</string>
+         </property>
+        </item>
+        <item row="1" column="0">
+         <property name="text">
+          <string>골렘</string>
+         </property>
+        </item>
+        <item row="1" column="1">
+         <property name="text">
+          <string>3000</string>
+         </property>
+        </item>
+        <item row="1" column="2">
+         <property name="text">
+          <string>골렘 왕</string>
+         </property>
+        </item>
+        <item row="1" column="3">
+         <property name="text">
+          <string>4</string>
+         </property>
+        </item>
+        <item row="2" column="0">
+         <property name="text">
+          <string>숲</string>
+         </property>
+        </item>
+        <item row="2" column="1">
+         <property name="text">
+          <string>72</string>
+         </property>
+        </item>
+        <item row="2" column="2">
+         <property name="text">
+          <string>마법 버섯</string>
+         </property>
+        </item>
+        <item row="2" column="3">
+         <property name="text">
+          <string>5</string>
+         </property>
+        </item>
+        <item row="3" column="0">
+         <property name="text">
+          <string>기술</string>
+         </property>
+        </item>
+        <item row="3" column="1">
+         <property name="text">
+          <string>50000</string>
+         </property>
+        </item>
+        <item row="3" column="2">
+         <property name="text">
+          <string>기술의 역사</string>
+         </property>
+        </item>
+        <item row="3" column="3">
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item row="4" column="0">
+         <property name="text">
+          <string>상인</string>
+         </property>
+        </item>
+        <item row="4" column="1">
+         <property name="text">
+          <string>4000</string>
+         </property>
+        </item>
+        <item row="4" column="2">
+         <property name="text">
+          <string>녹슨 대검</string>
+         </property>
+        </item>
+        <item row="4" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="5" column="0">
+         <property name="text">
+          <string>테이블</string>
+         </property>
+        </item>
+        <item row="5" column="1">
+         <property name="text">
+          <string>500</string>
+         </property>
+        </item>
+        <item row="5" column="2">
+         <property name="text">
+          <string>용사 정식</string>
+         </property>
+        </item>
+        <item row="5" column="3">
+         <property name="text">
+          <string>5</string>
+         </property>
+        </item>
+        <item row="6" column="0">
+         <property name="text">
+          <string>부재료</string>
+         </property>
+        </item>
+        <item row="6" column="1">
+         <property name="text">
+          <string>50</string>
+         </property>
+        </item>
+        <item row="6" column="2">
+         <property name="text">
+          <string>용기</string>
+         </property>
+        </item>
+        <item row="6" column="3">
+         <property name="text">
+          <string>3</string>
+         </property>
+        </item>
+        <item row="7" column="0">
+         <property name="text">
+          <string>부재료</string>
+         </property>
+        </item>
+        <item row="7" column="1">
+         <property name="text">
+          <string>100</string>
+         </property>
+        </item>
+        <item row="7" column="2">
+         <property name="text">
+          <string>골렘의 땀</string>
+         </property>
+        </item>
+        <item row="7" column="3">
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item row="8" column="0">
+         <property name="text">
+          <string>부재료</string>
+         </property>
+        </item>
+        <item row="8" column="1">
+         <property name="text">
+          <string>30</string>
+         </property>
+        </item>
+        <item row="8" column="2">
+         <property name="text">
+          <string>요정가루</string>
+         </property>
+        </item>
+        <item row="8" column="3">
+         <property name="text">
+          <string>30</string>
+         </property>
+        </item>
+        <item row="9" column="0">
+         <property name="text">
+          <string>상인</string>
+         </property>
+        </item>
+        <item row="9" column="1">
+         <property name="text">
+          <string>4000</string>
+         </property>
+        </item>
+        <item row="9" column="2">
+         <property name="text">
+          <string>녹슨 대검</string>
+         </property>
+        </item>
+        <item row="9" column="3">
+         <property name="text">
+          <string>3</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="geometry">
+         <rect>
+          <x>670</x>
+          <y>400</y>
+          <width>161</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 211, 105);
+border-radius:10px;
+font: 14pt &quot;맑은 고딕&quot;;</string>
+        </property>
+        <property name="text">
+         <string>등록</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_28">
+        <property name="geometry">
+         <rect>
+          <x>640</x>
+          <y>140</y>
+          <width>211</width>
+          <height>341</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+background-color: rgba(22, 60, 121, 100);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>660</x>
+          <y>160</y>
+          <width>171</width>
+          <height>211</height>
+         </rect>
+        </property>
+        <layout class="QFormLayout" name="formLayout_2">
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_2">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 211, 105);
+border-radius:10px;
+font: 14pt &quot;맑은 고딕&quot;;</string>
+           </property>
+           <property name="text">
+            <string>상품 코드</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="lineEdit"/>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_14">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 211, 105);
+border-radius:10px;
+font: 14pt &quot;맑은 고딕&quot;;</string>
+           </property>
+           <property name="text">
+            <string>판매가</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QLineEdit" name="lineEdit_2"/>
+         </item>
+         <item row="7" column="0">
+          <widget class="QLabel" name="label_16">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 211, 105);
+border-radius:10px;
+font: 14pt &quot;맑은 고딕&quot;;</string>
+           </property>
+           <property name="text">
+            <string>품명</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="1">
+          <widget class="QLineEdit" name="lineEdit_3"/>
+         </item>
+         <item row="9" column="0">
+          <widget class="QLabel" name="label_17">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 211, 105);
+border-radius:10px;
+font: 14pt &quot;맑은 고딕&quot;;</string>
+           </property>
+           <property name="text">
+            <string>재고</string>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="1">
+          <widget class="QLineEdit" name="lineEdit_4"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_18">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 211, 105);
+border-radius:10px;
+font: 14pt &quot;맑은 고딕&quot;;</string>
+           </property>
+           <property name="text">
+            <string>카테고리</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="lineEdit_5"/>
+         </item>
+        </layout>
+        <zorder>label_18</zorder>
+        <zorder>lineEdit_4</zorder>
+        <zorder>lineEdit_3</zorder>
+        <zorder>lineEdit</zorder>
+        <zorder>lineEdit_5</zorder>
+        <zorder>label_2</zorder>
+        <zorder>label_16</zorder>
+        <zorder>label_17</zorder>
+        <zorder>label_14</zorder>
+        <zorder>lineEdit_2</zorder>
+       </widget>
+       <zorder>layoutWidget</zorder>
+       <zorder>label_25</zorder>
+       <zorder>label_28</zorder>
+       <zorder>label_26</zorder>
+       <zorder>label_27</zorder>
+       <zorder>tableWidget</zorder>
+       <zorder>pushButton_2</zorder>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <connections/>
+</ui>
